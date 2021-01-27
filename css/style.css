@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    background-color: #f7cac9;
+}
+
+.navbar {
+    background-color: #f7786b ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vh;
+    width: 100vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-logos {
+    margin: 0px 0.8vw;
+}
+
+h1 {
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.basic-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8vh 1vw;
+}
+
+.profile-pic {
+    height: 100px;
+    width: 100px;
+}
+
+.personal-info {
+    margin: 0.8vh 1vw;
+   
+}
+
+.p-info {
+    margin: 0px 15px;
+}
+
+.info-item {
+    margin: 10px 0px;
+}
+
+hr {
+    width: 90vw;
+    margin: auto;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.career-obj {
+    margin: 0.8vh 1vw;
+}
+
+.goals {
+    margin: 0px 15px;
+}
+
+.goal-item {
+    margin: 10px 0px;
+}
+
+.educational-info {
+    margin: 0.8vh 1vw;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 80vw;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.interests {
+    margin: 0.8vh 1vw;
+}
+
+.intrsts {
+    margin: 0px 15px;
+    list-style-type: none;
+}
+
+.interest-items {
+    margin: 10px 0px;
+}
